@@ -10,7 +10,6 @@ const Form: React.FC<FormProps> = ({ label }) => {
   return (
     <form>
       <input
-        id="name-input"
         type="text"
         value={name}
         onChange={(e) => setName(e.target.value.trim())}
